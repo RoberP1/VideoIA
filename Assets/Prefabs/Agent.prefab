@@ -84,7 +84,7 @@ MonoBehaviour:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
   MaxStep: 5000
-  speed: 15
+  speed: 25
   maxZ: 17
   minZ: -17
   ball: {fileID: 0}
