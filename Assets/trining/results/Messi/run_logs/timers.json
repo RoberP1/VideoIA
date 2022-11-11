@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1668123878",
+        "python_version": "3.6.13 |Anaconda, Inc.| (default, Mar 16 2021, 11:37:27) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "R:\\APPs\\Anaconda\\envs\\env\\Scripts\\mlagents-learn D:\\Unity\\VideoIA\\config\\testAgent.yaml --no-graphics --run-id=Messi",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.0+cu110",
+        "numpy_version": "1.19.5",
+        "end_time_seconds": "1668123881"
+    },
+    "total": 3.6310681000000002,
+    "count": 1,
+    "self": 0.003930600000000339,
+    "children": {
+        "run_training.setup": {
+            "total": 0.07935389999999999,
+            "count": 1,
+            "self": 0.07935389999999999
+        },
+        "TrainerController.start_learning": {
+            "total": 3.5477836,
+            "count": 1,
+            "self": 0.0002927999999995379,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 3.5474845,
+                    "count": 1,
+                    "self": 3.5474845
+                },
+                "trainer_threads": {
+                    "total": 1.09999999997612e-06,
+                    "count": 1,
+                    "self": 1.09999999997612e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 5.200000000371574e-06,
+                    "count": 1,
+                    "self": 5.200000000371574e-06
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "AgentTest": {
+        "checkpoints": [
+            {
+                "steps": 499990,
+                "file_path": "results\\Messi2\\AgentTest\\AgentTest-499990.onnx",
+                "reward": 3.0,
+                "creation_time": 1668124567.4784179,
+                "auxillary_file_paths": [
+                    "results\\Messi2\\AgentTest\\AgentTest-499990.pt"
+                ]
+            },
+            {
+                "steps": 999996,
+                "file_path": "results\\Messi2\\AgentTest\\AgentTest-999996.onnx",
+                "reward": 5.53125,
+                "creation_time": 1668125167.1365604,
+                "auxillary_file_paths": [
+                    "results\\Messi2\\AgentTest\\AgentTest-999996.pt"
+                ]
+            },
+            {
+                "steps": 1499962,
+                "file_path": "results\\Messi2\\AgentTest\\AgentTest-1499962.onnx",
+                "reward": 12.5,
+                "creation_time": 1668125791.3840635,
+                "auxillary_file_paths": [
+                    "results\\Messi2\\AgentTest\\AgentTest-1499962.pt"
+                ]
+            },
+            {
+                "steps": 1500026,
+                "file_path": "results\\Messi2\\AgentTest\\AgentTest-1500026.onnx",
+                "reward": 12.5,
+                "creation_time": 1668125791.427601,
+                "auxillary_file_paths": [
+                    "results\\Messi2\\AgentTest\\AgentTest-1500026.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1500026,
+            "file_path": "results\\Messi2\\AgentTest.onnx",
+            "reward": 12.5,
+            "creation_time": 1668125791.427601,
+            "auxillary_file_paths": [
+                "results\\Messi2\\AgentTest\\AgentTest-1500026.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}

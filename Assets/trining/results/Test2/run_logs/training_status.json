@@ -1,0 +1,38 @@
+{
+    "AgentTest": {
+        "checkpoints": [
+            {
+                "steps": 499950,
+                "file_path": "results\\Test2\\AgentTest\\AgentTest-499950.onnx",
+                "reward": 2.769230769230769,
+                "creation_time": 1668123292.868352,
+                "auxillary_file_paths": [
+                    "results\\Test2\\AgentTest\\AgentTest-499950.pt"
+                ]
+            },
+            {
+                "steps": 500078,
+                "file_path": "results\\Test2\\AgentTest\\AgentTest-500078.onnx",
+                "reward": 2.769230769230769,
+                "creation_time": 1668123292.919395,
+                "auxillary_file_paths": [
+                    "results\\Test2\\AgentTest\\AgentTest-500078.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500078,
+            "file_path": "results\\Test2\\AgentTest.onnx",
+            "reward": 2.769230769230769,
+            "creation_time": 1668123292.919395,
+            "auxillary_file_paths": [
+                "results\\Test2\\AgentTest\\AgentTest-500078.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}
