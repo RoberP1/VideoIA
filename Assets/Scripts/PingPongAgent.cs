@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Unity.MLAgents;
 using Unity.MLAgents.Actuators;
@@ -35,6 +33,17 @@ public class PingPongAgent : Agent
         if (moveZ <= maxZ && moveZ >= minZ)
         {
             transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, moveZ);
+        }
+    }
+
+    public override void Heuristic(in ActionBuffers actionsOut)
+    {
+        ActionSegment<int> discretsActions = actionsOut.DiscreteActions;
+        switch (Input.GetAxisRaw("Vertical"))
+        {
+            case 1: discretsActions[0] = 1; break;
+            case 0: discretsActions[0] = 0; break;
+            case -1: discretsActions[0] = 2; break;
         }
     }
 }
