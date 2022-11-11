@@ -7,7 +7,7 @@ public class Ball : MonoBehaviour
     public float maxSpeed = 50;
     public float aceleration = 1.05f;
     public float maxAngle, minAngle;
-    void Start()
+    void Awake()
     {
         rb = GetComponent<Rigidbody>();
     }

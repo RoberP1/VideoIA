@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4765401314813326272}
+  - component: {fileID: 2607040664479285125}
   m_Layer: 0
   m_Name: Enviroment
   m_TagString: Untagged
@@ -39,6 +40,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2607040664479285125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3700386478888184342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5126d7d41ef9f04eb228377d05488b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3755582404457837449
 GameObject:
   m_ObjectHideFlags: 0
@@ -538,7 +551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5df4031e428fd454c9fe288619b1c8cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 0}
+  rb: {fileID: 3755582406085141568}
   speed: 20
   maxSpeed: 40
   aceleration: 1.05
@@ -567,6 +580,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4765401314813326272}
     m_Modifications:
+    - target: {fileID: 3188881259414333633, guid: b5d3ffeb8a6599c489e5eb1a29cd5c56, type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3188881259414333644, guid: b5d3ffeb8a6599c489e5eb1a29cd5c56, type: 3}
       propertyPath: m_Name
       value: Agent
@@ -781,6 +798,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   agent: {fileID: 1756312391568696117}
   opponent: {fileID: 3755582406171721760}
+  textScore: {fileID: 0}
 --- !u!1 &7765410593911460613 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6907050159044240885, guid: f0d7741d9e06247f6843b921a206b978, type: 3}
@@ -800,6 +818,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   agent: {fileID: 3755582406171721760}
   opponent: {fileID: 1756312391568696117}
+  textScore: {fileID: 0}
 --- !u!4 &7770878063584109307 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6902107422946006027, guid: f0d7741d9e06247f6843b921a206b978, type: 3}
@@ -812,6 +831,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4765401314813326272}
     m_Modifications:
+    - target: {fileID: 3188881259414333633, guid: b5d3ffeb8a6599c489e5eb1a29cd5c56, type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3188881259414333633, guid: b5d3ffeb8a6599c489e5eb1a29cd5c56, type: 3}
+      propertyPath: m_InferenceDevice
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3188881259414333644, guid: b5d3ffeb8a6599c489e5eb1a29cd5c56, type: 3}
       propertyPath: m_Name
       value: Agent (1)
