@@ -23,6 +23,6 @@ public class Goal : MonoBehaviour
         }
 
         score++;
-        textScore.text = "Score: " + score;
+        if(textScore != null)textScore.text = "Score: " + score;
     }
 }
