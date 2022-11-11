@@ -542,8 +542,8 @@ MonoBehaviour:
   speed: 20
   maxSpeed: 40
   aceleration: 1.05
-  maxAngle: -55
-  minAngle: -145
+  maxAngle: -35
+  minAngle: -125
 --- !u!54 &3755582406085141568
 Rigidbody:
   m_ObjectHideFlags: 0
