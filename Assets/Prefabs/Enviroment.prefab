@@ -56,7 +56,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3755582404457837429
 Transform:
@@ -153,7 +153,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3755582404975772345
 Transform:
@@ -250,7 +250,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3755582405389596824
 Transform:
@@ -347,7 +347,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3755582406060382827
 Transform:
@@ -539,8 +539,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  speed: 30
-  maxSpeed: 45
+  speed: 20
+  maxSpeed: 40
   aceleration: 1.05
   maxAngle: -55
   minAngle: -145
@@ -575,13 +575,21 @@ PrefabInstance:
       propertyPath: ball
       value: 
       objectReference: {fileID: 3755582406085141583}
+    - target: {fileID: 3188881259414333646, guid: b5d3ffeb8a6599c489e5eb1a29cd5c56, type: 3}
+      propertyPath: opponent
+      value: 
+      objectReference: {fileID: 1756312391568696117}
+    - target: {fileID: 3188881259414333646, guid: b5d3ffeb8a6599c489e5eb1a29cd5c56, type: 3}
+      propertyPath: startingPosition.x
+      value: -45
+      objectReference: {fileID: 0}
     - target: {fileID: 3188881259414333647, guid: b5d3ffeb8a6599c489e5eb1a29cd5c56, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3188881259414333647, guid: b5d3ffeb8a6599c489e5eb1a29cd5c56, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -40
+      value: -45
       objectReference: {fileID: 0}
     - target: {fileID: 3188881259414333647, guid: b5d3ffeb8a6599c489e5eb1a29cd5c56, type: 3}
       propertyPath: m_LocalPosition.y
@@ -772,6 +780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 1756312391568696117}
+  opponent: {fileID: 3755582406171721760}
 --- !u!1 &7765410593911460613 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6907050159044240885, guid: f0d7741d9e06247f6843b921a206b978, type: 3}
@@ -790,6 +799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 3755582406171721760}
+  opponent: {fileID: 1756312391568696117}
 --- !u!4 &7770878063584109307 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6902107422946006027, guid: f0d7741d9e06247f6843b921a206b978, type: 3}
@@ -811,8 +821,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3755582406085141583}
     - target: {fileID: 3188881259414333646, guid: b5d3ffeb8a6599c489e5eb1a29cd5c56, type: 3}
+      propertyPath: opponent
+      value: 
+      objectReference: {fileID: 3755582406171721760}
+    - target: {fileID: 3188881259414333646, guid: b5d3ffeb8a6599c489e5eb1a29cd5c56, type: 3}
       propertyPath: startingPosition.x
-      value: 40
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 3188881259414333647, guid: b5d3ffeb8a6599c489e5eb1a29cd5c56, type: 3}
       propertyPath: m_RootOrder
@@ -820,7 +834,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3188881259414333647, guid: b5d3ffeb8a6599c489e5eb1a29cd5c56, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 40
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 3188881259414333647, guid: b5d3ffeb8a6599c489e5eb1a29cd5c56, type: 3}
       propertyPath: m_LocalPosition.y

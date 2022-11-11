@@ -1,0 +1,38 @@
+{
+    "PingPongAgent": {
+        "checkpoints": [
+            {
+                "steps": 499988,
+                "file_path": "results\\MassiveTraining\\PingPongAgent\\PingPongAgent-499988.onnx",
+                "reward": -0.33223684210526316,
+                "creation_time": 1668142760.8144906,
+                "auxillary_file_paths": [
+                    "results\\MassiveTraining\\PingPongAgent\\PingPongAgent-499988.pt"
+                ]
+            },
+            {
+                "steps": 548568,
+                "file_path": "results\\MassiveTraining\\PingPongAgent\\PingPongAgent-548568.onnx",
+                "reward": -0.330188679245283,
+                "creation_time": 1668142810.289959,
+                "auxillary_file_paths": [
+                    "results\\MassiveTraining\\PingPongAgent\\PingPongAgent-548568.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 548568,
+            "file_path": "results\\MassiveTraining\\PingPongAgent.onnx",
+            "reward": -0.330188679245283,
+            "creation_time": 1668142810.289959,
+            "auxillary_file_paths": [
+                "results\\MassiveTraining\\PingPongAgent\\PingPongAgent-548568.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}

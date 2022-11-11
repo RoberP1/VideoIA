@@ -13,6 +13,8 @@ public class PingPongAgent : Agent
     public Ball ball;
 
     public Vector3 startingPosition;
+
+    public PingPongAgent opponent;
     public override void OnEpisodeBegin()
     {
         transform.localPosition = startingPosition;
@@ -23,6 +25,7 @@ public class PingPongAgent : Agent
         sensor.AddObservation(transform.localPosition);
         sensor.AddObservation(ball.transform.localPosition);
         sensor.AddObservation(ball.rb.velocity);
+        sensor.AddObservation(opponent.transform.position);
     }
     public override void OnActionReceived(ActionBuffers actions)
     {

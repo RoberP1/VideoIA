@@ -18,6 +18,8 @@ public class Ball : MonoBehaviour
         transform.localPosition = Vector3.zero;
         rb.velocity = Vector3.zero;
         float angle = Random.Range(minAngle, maxAngle);
+        //int rand = Random.Range(0, 2);
+        //angle += (rand == 0) ? 0 : 180;
         transform.rotation = Quaternion.Euler(0, angle, 0);
         rb.AddForce(transform.forward * speed, ForceMode.VelocityChange);
     }

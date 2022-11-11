@@ -5,6 +5,7 @@ using UnityEngine;
 public class Goal : MonoBehaviour
 {
     public PingPongAgent agent;
+    public PingPongAgent opponent;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -12,6 +13,7 @@ public class Goal : MonoBehaviour
         {
             agent.SetReward(-1f);
             agent.EndEpisode();
+            opponent.EndEpisode();
         }
     }
 }
