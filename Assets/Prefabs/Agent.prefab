@@ -88,7 +88,7 @@ MonoBehaviour:
   maxZ: 17
   minZ: -17
   ball: {fileID: 0}
-  startingPosition: {x: -40, y: 3, z: 0}
+  startingPosition: {x: 45, y: 3, z: 0}
   opponent: {fileID: 0}
 --- !u!114 &3188881259414333632
 MonoBehaviour:
@@ -237,7 +237,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4521296116772160, guid: 70d695e1d8399400bb0f2873bdf29bb0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4521296116772160, guid: 70d695e1d8399400bb0f2873bdf29bb0, type: 3}
       propertyPath: m_LocalRotation.y
@@ -245,7 +245,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4521296116772160, guid: 70d695e1d8399400bb0f2873bdf29bb0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4521296116772160, guid: 70d695e1d8399400bb0f2873bdf29bb0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
