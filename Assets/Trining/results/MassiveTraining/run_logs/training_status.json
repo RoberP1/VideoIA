@@ -1,0 +1,56 @@
+{
+    "PingPongAgent": {
+        "checkpoints": [
+            {
+                "steps": 499998,
+                "file_path": "results\\MassiveTraining\\PingPongAgent\\PingPongAgent-499998.onnx",
+                "reward": 4.923076923076923,
+                "creation_time": 1668145473.599201,
+                "auxillary_file_paths": [
+                    "results\\MassiveTraining\\PingPongAgent\\PingPongAgent-499998.pt"
+                ]
+            },
+            {
+                "steps": 999936,
+                "file_path": "results\\MassiveTraining\\PingPongAgent\\PingPongAgent-999936.onnx",
+                "reward": 9.75,
+                "creation_time": 1668145866.966196,
+                "auxillary_file_paths": [
+                    "results\\MassiveTraining\\PingPongAgent\\PingPongAgent-999936.pt"
+                ]
+            },
+            {
+                "steps": 1499944,
+                "file_path": "results\\MassiveTraining\\PingPongAgent\\PingPongAgent-1499944.onnx",
+                "reward": 10.363636363636363,
+                "creation_time": 1668146253.1615624,
+                "auxillary_file_paths": [
+                    "results\\MassiveTraining\\PingPongAgent\\PingPongAgent-1499944.pt"
+                ]
+            },
+            {
+                "steps": 1500072,
+                "file_path": "results\\MassiveTraining\\PingPongAgent\\PingPongAgent-1500072.onnx",
+                "reward": 10.363636363636363,
+                "creation_time": 1668146253.2096033,
+                "auxillary_file_paths": [
+                    "results\\MassiveTraining\\PingPongAgent\\PingPongAgent-1500072.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1500072,
+            "file_path": "results\\MassiveTraining\\PingPongAgent.onnx",
+            "reward": 10.363636363636363,
+            "creation_time": 1668146253.2096033,
+            "auxillary_file_paths": [
+                "results\\MassiveTraining\\PingPongAgent\\PingPongAgent-1500072.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}
